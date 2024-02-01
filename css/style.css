@@ -316,13 +316,14 @@ a {
 
 #tentang-saya > .wrapper > div > .des > .social {
     display: flex;
-    width: 30%;
+    width: 60%;
     justify-content: space-between;
     font-size: 1.3rem;
 }
 
 #tentang-saya > .wrapper > div > .des > .social > a {
-    color: #454446
+    color: #344188;
+    font-size: 1.6rem;
 }
 
 /*
