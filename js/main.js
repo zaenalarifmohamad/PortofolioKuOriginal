@@ -49,3 +49,19 @@ document.addEventListener("DOMContentLoaded", function() {
        });
    });
 });
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Simulate data submission to server (you should replace this with actual server submission)
+    setTimeout(function() {
+        // Show toast
+        var toast = document.getElementById('toast');
+        toast.classList.add('show');
+
+        // Hide toast after 3 seconds
+        setTimeout(function() {
+            toast.classList.remove('show');
+        }, 3000);
+    }, 1000); // Simulated delay to mimic server request
+});
