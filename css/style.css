@@ -437,45 +437,6 @@ input[type="submit"]:hover {
 }
 
 /*
-*tOAST
-*/
-.toast {
-    visibility: hidden;
-    background-color: #0f2710; /* Warna hijau */
-    color: white;
-    text-align: center;
-    border-radius: 30px; /* Border radius yang lebih besar untuk tampilan yang lebih lucu */
-    padding: 15px; /* Padding yang lebih besar untuk tampilan yang lebih menonjol */
-    position: fixed;
-    z-index: 1;
-    left: 50%; /* Posisi horizontal di tengah */
-    transform: translateX(-50%) translateY(-100%); /* Memusatkan horizontal dan menggeser ke atas */
-    top: 20px; /* Mengatur posisi pojok atas */
-    transition: transform 0.5s ease-in-out; /* Efek transisi untuk transformasi */
-    display: flex;
-    align-items: center; /* Posisikan ikon di tengah vertikal */
-}
-
-.toast.show {
-    visibility: visible;
-    transform: translateX(-50%) translateY(0); /* Menggeser kembali ke posisi asli */
-}
-
-.toast.success {
-    background-color: #111111; /* Warna hijau yang lebih cerah */
-}
-
-.toast.error {
-    background-color: #dc3545; /* Warna merah untuk pesan kesalahan */
-}
-
-.toast .icon {
-    margin-right: 10px; /* Ruang antara ikon dan teks */
-    font-size: 20px; /* Ukuran ikon */
-
-
-
-/*
 * Copyright
 */
 
